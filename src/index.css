@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@font-face {
+    font-family: navbar;
+    src: url(./assets/fonts/NeueMontreal-Regular.ttf);
+}
+@font-face {
+    font-family: fonder;
+    src: url(./assets/fonts/FoundersGrotesk-Semibold.ttf);
+}
+
+.fonts{
+    font-family: "navbar";
+}
+.markes{
+    font-family: "navbar";
+}
+.h1{
+    font-family: "navbar";
+}
+.eading{
+    font-family: "fonder";
+}
+
+.hi{
+    font-family: "fonder";
+}
+
+
+.dest{
+    font-family: "navbar";
+}
+::selection{
+    color: #fff;
+    background-color: #000;
+    padding: 20 30px;
+}
+
+.img img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
